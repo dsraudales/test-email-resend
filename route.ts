@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 
 // Asegúrate de tener RESEND_API_KEY en tus variables de entorno de Vercel
-const resend = new Resend(process.env.re_XNF9dMyd_MFhsr1mC6kEctrPZ5abWh55T);
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function GET() {
   try {
